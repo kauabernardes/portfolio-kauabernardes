@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-carbon: #0D0909;
+  --color-carbon-surface: #161212;
+  --color-silver: #D4D4D4;
+  --color-vermilion: #F24916;
+  --color-forest: #2F7347;
+  --color-ultramarine: #13008C;
+}
+
+@layer base {
+  html {
+    background-color: var(--color-carbon);
+    color: var(--color-silver);
+    font-family: 'Nunito', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
