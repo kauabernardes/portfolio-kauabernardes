@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
                 {profile.name}
               </span>
             </Link>
-            <p className="text-sm text-silver/65">{profile.role}</p>
+            <p className="text-sm text-silver/65">{profile.subheadline}</p>
           </div>
 
           {/* Right Side: All Site Pages & Contacts Listed Together */}
