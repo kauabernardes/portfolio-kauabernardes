@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0D0909"/>
+
+  <!-- Subtle Glows -->
+  <circle cx="1020" cy="120" r="240" fill="#13008C" fill-opacity="0.22"/>
+  <circle cx="180" cy="530" r="220" fill="#2F7347" fill-opacity="0.16"/>
+
+  <!-- Inner Card Surface -->
+  <rect x="64" y="64" width="1072" height="502" rx="36" fill="#161212" stroke="#D4D4D4" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Status Pill -->
+  <rect x="128" y="132" width="380" height="44" rx="22" fill="#2F7347" fill-opacity="0.2"/>
+  <circle cx="154" cy="154" r="6" fill="#2F7347"/>
+  <text x="174" y="160" fill="#D4D4D4" font-family="Nunito, Plus Jakarta Sans, sans-serif" font-weight="700" font-size="18">
+    Disponível para oportunidades e projetos
+  </text>
+
+  <!-- Main Name & Accent Dot -->
+  <circle cx="140" cy="252" r="10" fill="#F24916"/>
+  <text x="168" y="272" fill="#D4D4D4" font-family="Nunito, Plus Jakarta Sans, sans-serif" font-weight="800" font-size="68" letter-spacing="-1.5">
+    Kauã Bernardes
+  </text>
+
+  <!-- Subtitle -->
+  <text x="128" y="332" fill="#D4D4D4" fill-opacity="0.72" font-family="Nunito, Plus Jakarta Sans, sans-serif" font-weight="600" font-size="34">
+    Desenvolvedor de soluções digitais
+  </text>
+
+  <!-- Value Prop -->
+  <text x="128" y="395" fill="#D4D4D4" fill-opacity="0.55" font-family="Nunito, Plus Jakarta Sans, sans-serif" font-weight="500" font-size="22">
+    Sistemas web escaláveis, automação de processos (RPA) e inteligência de dados.
+  </text>
+
+  <!-- Tech Pills -->
+  <g transform="translate(128, 448)">
+    <rect x="0" y="0" width="144" height="44" rx="22" fill="#D4D4D4" fill-opacity="0.07"/>
+    <text x="72" y="28" text-anchor="middle" fill="#D4D4D4" font-family="Nunito, sans-serif" font-weight="700" font-size="18">TypeScript</text>
+
+    <rect x="158" y="0" width="128" height="44" rx="22" fill="#D4D4D4" fill-opacity="0.07"/>
+    <text x="222" y="28" text-anchor="middle" fill="#D4D4D4" font-family="Nunito, sans-serif" font-weight="700" font-size="18">Node.js</text>
+
+    <rect x="300" y="0" width="114" height="44" rx="22" fill="#D4D4D4" fill-opacity="0.07"/>
+    <text x="357" y="28" text-anchor="middle" fill="#D4D4D4" font-family="Nunito, sans-serif" font-weight="700" font-size="18">React</text>
+
+    <rect x="428" y="0" width="174" height="44" rx="22" fill="#2F7347" fill-opacity="0.22"/>
+    <text x="515" y="28" text-anchor="middle" fill="#D4D4D4" font-family="Nunito, sans-serif" font-weight="700" font-size="18">Python • RPA</text>
+
+    <rect x="616" y="0" width="154" height="44" rx="22" fill="#13008C" fill-opacity="0.35"/>
+    <text x="693" y="28" text-anchor="middle" fill="#D4D4D4" font-family="Nunito, sans-serif" font-weight="700" font-size="18">PostgreSQL</text>
+  </g>
+</svg>

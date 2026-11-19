@@ -1,0 +1,28 @@
+{
+  "name": "Kauã Bernardes — Desenvolvedor de soluções digitais",
+  "short_name": "Kauã Bernardes",
+  "description": "Portfólio de Kauã Bernardes — Desenvolvedor Full-Stack (TypeScript, Node.js, NestJS, React) e Especialista em Automação de Processos (Python, RPA, SAP PM).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0909",
+  "theme_color": "#0D0909",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/og-preview.png",
+      "sizes": "1200x630",
+      "type": "image/png"
+    }
+  ]
+}

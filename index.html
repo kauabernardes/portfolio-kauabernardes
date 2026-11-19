@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR" class="dark">
+<html lang="pt-BR" class="dark" prefix="og: https://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,88 +8,230 @@
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:;"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:;"
     />
 
     <!-- Primary SEO Meta Tags -->
     <title>Kauã Bernardes — Desenvolvedor de soluções digitais</title>
     <meta
+      name="title"
+      content="Kauã Bernardes — Desenvolvedor de soluções digitais (Full-Stack & RPA)"
+    />
+    <meta
       name="description"
-      content="Portfólio oficial de Kauã Bernardes — Desenvolvedor Full-Stack (TypeScript, Node.js, NestJS, React) e Especialista em Automação de Processos (RPA, Python, SAP PM)."
+      content="Portfólio oficial de Kauã Bernardes — Desenvolvedor Full-Stack (TypeScript, Node.js, NestJS, React, PostgreSQL) e Especialista em Automação de Processos (Python, RPA, SAP PM, IA)."
     />
     <meta
       name="keywords"
-      content="Kauã Bernardes, Desenvolvedor Full-Stack, Automação RPA, TypeScript, Node.js, NestJS, React, Python, SAP PM, Aracruz, Espírito Santo"
+      content="Kauã Bernardes, Desenvolvedor de soluções digitais, Desenvolvedor Full-Stack, Automação de Processos, RPA, TypeScript, Node.js, NestJS, React, Python, SAP PM, Streamlit, PostgreSQL, IFES, Aracruz, Espírito Santo"
     />
     <meta name="author" content="Kauã Bernardes" />
+    <meta name="creator" content="Kauã Bernardes" />
+    <meta name="publisher" content="Kauã Bernardes" />
     <meta name="copyright" content="© 2026 Kauã Bernardes. Todos os direitos reservados." />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#0D0909" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="application-name" content="Kauã Bernardes" />
+    <meta name="generator" content="React + TypeScript + Vite" />
 
-    <!-- Open Graph / LinkedIn / WhatsApp -->
-    <meta property="og:type" content="website" />
+    <!-- Crawlers & Indexing Directives -->
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta
+      name="googlebot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://kauabernardes.dev/" />
+
+    <!-- Regional & Geo SEO (Espírito Santo / Brasil) -->
+    <meta name="language" content="Portuguese" />
+    <meta name="geo.region" content="BR-ES" />
+    <meta name="geo.placename" content="Aracruz, Espírito Santo, Brasil" />
+
+    <!-- Icons, Manifest & Theme Colors -->
+    <meta name="theme-color" content="#0D0909" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Kauã Bernardes" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph / LinkedIn / WhatsApp / Discord / Facebook -->
+    <meta property="og:type" content="profile" />
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content="Kauã Bernardes" />
-    <meta property="og:title" content="Kauã Bernardes — Desenvolvedor de soluções digitais" />
+    <meta property="og:url" content="https://kauabernardes.dev/" />
+    <meta property="og:site_name" content="Kauã Bernardes — Portfólio" />
+    <meta
+      property="og:title"
+      content="Kauã Bernardes — Desenvolvedor de soluções digitais"
+    />
     <meta
       property="og:description"
-      content="Desenvolvimento de sistemas web escaláveis e automações inteligentes com TypeScript, Node.js, React e Python."
+      content="Desenvolvo sistemas escaláveis e automações inteligentes que eliminam gargalos operacionais e conectam dados à tomada de decisão. TypeScript, Node.js, React, Python e SAP PM."
     />
+    <meta property="og:image" content="https://kauabernardes.dev/og-preview.png" />
+    <meta property="og:image:secure_url" content="https://kauabernardes.dev/og-preview.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Kauã Bernardes — Desenvolvedor de soluções digitais (Full-Stack & Automação RPA)"
+    />
+    <meta property="profile:first_name" content="Kauã" />
+    <meta property="profile:last_name" content="Bernardes" />
+    <meta property="profile:username" content="kauabernardes" />
 
-    <!-- Twitter Card -->
+    <!-- Twitter / X Large Summary Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Kauã Bernardes — Desenvolvedor de soluções digitais" />
+    <meta name="twitter:url" content="https://kauabernardes.dev/" />
+    <meta
+      name="twitter:title"
+      content="Kauã Bernardes — Desenvolvedor de soluções digitais"
+    />
     <meta
       name="twitter:description"
-      content="Desenvolvimento de sistemas web escaláveis e automações inteligentes com TypeScript, Node.js, React e Python."
+      content="Desenvolvo sistemas escaláveis e automações inteligentes que eliminam gargalos operacionais e conectam dados à tomada de decisão. TypeScript, Node.js, React, Python e SAP PM."
+    />
+    <meta name="twitter:image" content="https://kauabernardes.dev/og-preview.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Kauã Bernardes — Desenvolvedor de soluções digitais (Full-Stack & Automação RPA)"
     />
 
-    <!-- Typography -->
+    <!-- Typography Performance Hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Schema.org Structured Data (JSON-LD) for Search Engines & Tech Recruiters -->
+    <!-- Rich Schema.org Knowledge Graph (JSON-LD) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Kauã Bernardes",
-        "jobTitle": "Desenvolvedor de soluções digitais (Full-Stack & RPA)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Aracruz",
-          "addressRegion": "ES",
-          "addressCountry": "BR"
-        },
-        "email": "mailto:kauabernardes001@gmail.com",
-        "sameAs": [
-          "https://linkedin.com/in/kauabernardes",
-          "https://github.com/kauabernardes"
-        ],
-        "AlumniOf": {
-          "@type": "CollegeOrUniversity",
-          "name": "IFES — Instituto Federal do Espírito Santo (Campus Serra)"
-        },
-        "knowsAbout": [
-          "TypeScript",
-          "Node.js",
-          "NestJS",
-          "React",
-          "Python",
-          "Robotic Process Automation (RPA)",
-          "SAP PM",
-          "PostgreSQL"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://kauabernardes.dev/#website",
+            "url": "https://kauabernardes.dev/",
+            "name": "Kauã Bernardes — Desenvolvedor de soluções digitais",
+            "description": "Portfólio oficial de Kauã Bernardes — Desenvolvedor Full-Stack e Especialista em Automação de Processos (RPA).",
+            "inLanguage": "pt-BR",
+            "publisher": {
+              "@id": "https://kauabernardes.dev/#person"
+            }
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://kauabernardes.dev/#profilepage",
+            "url": "https://kauabernardes.dev/",
+            "name": "Portfólio de Kauã Bernardes",
+            "isPartOf": {
+              "@id": "https://kauabernardes.dev/#website"
+            },
+            "mainEntity": {
+              "@id": "https://kauabernardes.dev/#person"
+            },
+            "inLanguage": "pt-BR"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://kauabernardes.dev/#person",
+            "name": "Kauã Bernardes",
+            "url": "https://kauabernardes.dev/",
+            "image": "https://kauabernardes.dev/og-preview.png",
+            "jobTitle": "Desenvolvedor de soluções digitais (Full-Stack & RPA)",
+            "description": "Desenvolvedor Full-Stack com experiência no desenvolvimento de soluções digitais voltadas à otimização de processos, Node.js, TypeScript, React, PostgreSQL, automação SAP PM em Python e Inteligência Artificial.",
+            "email": "mailto:kauabernardes001@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Aracruz",
+              "addressRegion": "ES",
+              "addressCountry": "BR"
+            },
+            "alumniOf": {
+              "@type": "EducationalOrganization",
+              "name": "IFES — Instituto Federal do Espírito Santo (Campus Serra)"
+            },
+            "sameAs": [
+              "https://linkedin.com/in/kauabernardes",
+              "https://github.com/kauabernardes"
+            ],
+            "knowsAbout": [
+              "TypeScript",
+              "Node.js",
+              "NestJS",
+              "React",
+              "Python",
+              "Robotic Process Automation (RPA)",
+              "SAP PM",
+              "Streamlit",
+              "Pandas",
+              "PostgreSQL",
+              "WebSockets",
+              "LLMs & Inteligência Artificial"
+            ]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://kauabernardes.dev/#projects",
+            "name": "Projetos Desenvolvidos por Kauã Bernardes",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Automação RPA para SAP PM (Transpetro / Prest Engenharia)",
+                "description": "Automações em Python e interfaces analíticas em Streamlit para automatizar a leitura, avaliação e gestão de Ordens de Manutenção no SAP PM."
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Sistema de Gestão de Denúncias (Polícia Civil ES / IFES)",
+                "description": "Aplicação full-stack desenvolvida para a Delegacia de Proteção à Pessoa Idosa com PostgreSQL, Node.js/NestJS, React e Mistral AI."
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Lumen — Gestão de Estudos com IA",
+                "description": "Plataforma multiplataforma (Web e Android) integrando Pomodoro, gamificação, comunidades estudantis e Google Gemini AI."
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Sistema de Placar em Tempo Real (TMTR)",
+                "description": "Plataforma de pontuação ao vivo para torneios de robótica utilizando Node.js, WebSockets (Socket.IO) e React."
+              }
+            ]
+          }
         ]
       }
     </script>
   </head>
   <body class="bg-carbon text-silver antialiased selection:bg-vermilion/20 selection:text-silver">
     <div id="root"></div>
+
+    <!-- Fallback semântico para rastreadores sem JavaScript -->
+    <noscript>
+      <main style="padding: 2rem; font-family: sans-serif; color: #D4D4D4; background: #0D0909;">
+        <h1>Kauã Bernardes — Desenvolvedor de soluções digitais</h1>
+        <p>
+          Desenvolvo sistemas escaláveis e automações inteligentes que eliminam gargalos
+          operacionais e conectam dados à tomada de decisão.
+        </p>
+        <p>Contato: kauabernardes001@gmail.com | Aracruz - ES</p>
+        <p>
+          Links:
+          <a href="https://linkedin.com/in/kauabernardes">LinkedIn</a> |
+          <a href="https://github.com/kauabernardes">GitHub</a>
+        </p>
+      </main>
+    </noscript>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
